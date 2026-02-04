@@ -26,7 +26,7 @@ Clone the repository
 ```
 git clone https://github.com/arunsingh/cdc-dbzium-kafka.git 
 
-cd cdc-debezium
+cd cdc-dbzium-kafka
 ```
 
 Install dependencies
