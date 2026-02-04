@@ -1,0 +1,24 @@
+{
+  "name": "debezium-postgres-kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":" npx tsc -b",
+    "db":"node ./dist/dbConfig.js",
+    "connect":"node ./dist/debezium.js",
+    "dev":"node ./dist/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.3",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.17.2"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.16.0"
+  }
+}
