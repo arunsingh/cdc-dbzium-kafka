@@ -24,7 +24,7 @@ A real-time data synchronization system using Debezium, PostgreSQL, and Kafka to
 Clone the repository
 
 ```
-git clone https://github.com/Pratik610/cdc-debezium.git 
+git clone https://github.com/arunsingh/cdc-dbzium-kafka.git 
 
 cd cdc-debezium
 ```
